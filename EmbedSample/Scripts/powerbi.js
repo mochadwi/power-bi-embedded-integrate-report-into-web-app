@@ -362,7 +362,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this.config.embedUrl = this.getEmbedUrl();
 	        this.config.id = this.getId();
 	        this.config.uniqueId = this.getUniqueId();
-	        this.config.embedUrl += '&unmin=1';
 	        var iframeHtml = "<iframe style=\"width:100%;height:100%;\" src=\"" + this.config.embedUrl + "\" scrolling=\"no\" allowfullscreen=\"true\"></iframe>";
 	        this.element.innerHTML = iframeHtml;
 	        this.iframe = this.element.childNodes[0];
